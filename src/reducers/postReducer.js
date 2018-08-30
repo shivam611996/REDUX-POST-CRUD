@@ -9,7 +9,7 @@ const postReducer = (state = [], action) => {
         post =>
           post.id === action.id ? { ...post, editing: !post.editing } : post
       );
-    case "UPDATE":
+    case "UPDATE_POST":
       return state.map(post => {
         if (post.id === action.id) {
           return {
