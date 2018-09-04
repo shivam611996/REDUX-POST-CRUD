@@ -69,8 +69,7 @@ a:hover {
   align-items: center;
 }
 
-.post_form input:required {
-  height: 44px;
+.post_form #post_title {
   padding-left: 15px;
   padding-right: 15px;
   border: 1px solid #dbe2e8;
@@ -78,7 +77,6 @@ a:hover {
   border-radius: 2px;
   color: #636363;
   box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
-  outline: none;
   width: 80%;
 }
 
@@ -94,7 +92,6 @@ a:hover {
   color: #636363;
   font-family: "Work Sans,", sans-serif;
   box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
-  outline: none;
 }
 
 /* All Posts */

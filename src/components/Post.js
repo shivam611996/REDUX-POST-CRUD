@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 class Post extends Component {
   render() {
     return (
-      <tr key={this.props.post.id}>
+      <tr disabled key={this.props.post.id}>
         <td>{this.props.post.title}</td>
 
         <td>{this.props.post.message}</td>
@@ -18,6 +18,7 @@ class Post extends Component {
                 id: this.props.post.id
               })
             }
+            disabled={this.props.pd}
           >
             <span className="glyphicon glyphicon-edit" />
             Edit
